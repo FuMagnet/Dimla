@@ -88,6 +88,16 @@ case "$input" in
     read -p "press enter to continue ..."
 ;;
 
+	"Q" | "q" | "quit" )
+		# exit
+		clear
+		break
+	;;
+
+	* )
+		# default
+		clear
+	;;
 
     esac
 done
