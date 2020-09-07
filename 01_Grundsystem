@@ -19,7 +19,7 @@ echo auto lo > /etc/network/interfaces
 echo iface lo inet loopback >> /etc/network/interfaces
 echo >> /etc/network/interfaces
 echo auto eth0 >> /etc/network/interfaces
-iface eth0 inet dhcp >> /etc/network/interfaces
+echo iface eth0 inet dhcp >> /etc/network/interfaces
 
 # Server Neustart
 reboot now
