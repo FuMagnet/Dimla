@@ -42,7 +42,7 @@ case "$input" in
     echo
     echo "========================================================="
     read -p "press enter to continue ..."
-    
+;;
     
 # Server2 Settings
 "2")
@@ -64,7 +64,7 @@ case "$input" in
     echo
     echo "========================================================="
     read -p "press enter to continue ..."
-    
+;;    
     
 # Server3 Settings
 "3")
@@ -86,3 +86,10 @@ case "$input" in
     echo
     echo "========================================================="
     read -p "press enter to continue ..."
+;;
+
+
+    esac
+done
+
+exit 0
