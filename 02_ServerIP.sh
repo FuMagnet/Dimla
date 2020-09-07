@@ -100,6 +100,5 @@ case "$input" in
 	;;
 
     esac
-done
 
 exit 0
