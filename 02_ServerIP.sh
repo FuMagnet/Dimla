@@ -35,10 +35,10 @@ case "$input" in
                 echo >> /etc/network/interfaces
                 echo auto eth0 >> /etc/network/interfaces
                 echo iface eth0 inet static >> /etc/network/interfaces
-                echo adress 192.168.0.10/24 >> /etc/network/interfaces
-                echo gateway 192.168.0.1 >> /etc/network/interfaces
-                echo dns-nameservers 192.168.0.10 >> /etc/network/interfaces
-                echo dns-search host.intern >> /etc/network/interfaces
+                echo "  address 192.168.0.10/24" >> /etc/network/interfaces
+                echo "  gateway 192.168.0.1" >> /etc/network/interfaces
+                echo "  dns-nameservers 192.168.0.10" >> /etc/network/interfaces
+                echo "  dns-search host.intern" >> /etc/network/interfaces
     echo
     echo "========================================================="
     read -p "press enter to continue ..."
@@ -57,10 +57,10 @@ case "$input" in
                 echo >> /etc/network/interfaces
                 echo auto eth0 >> /etc/network/interfaces
                 echo iface eth0 inet static >> /etc/network/interfaces
-                echo adress 192.168.0.11/24 >> /etc/network/interfaces
-                echo gateway 192.168.0.1 >> /etc/network/interfaces
-                echo dns-nameservers 192.168.0.10 >> /etc/network/interfaces
-                echo dns-search host.intern >> /etc/network/interfaces
+                echo "  address 192.168.0.11/24" >> /etc/network/interfaces
+                echo "  gateway 192.168.0.1" >> /etc/network/interfaces
+                echo "  dns-nameservers 192.168.0.10" >> /etc/network/interfaces
+                echo "  dns-search host.intern" >> /etc/network/interfaces
     echo
     echo "========================================================="
     read -p "press enter to continue ..."
@@ -79,10 +79,10 @@ case "$input" in
                 echo >> /etc/network/interfaces
                 echo auto eth0 >> /etc/network/interfaces
                 echo iface eth0 inet static >> /etc/network/interfaces
-                echo adress 192.168.0.1/24 >> /etc/network/interfaces
-                echo gateway 192.168.0.1 >> /etc/network/interfaces
-                echo dns-nameservers 192.168.0.10 >> /etc/network/interfaces
-                echo dns-search host.intern >> /etc/network/interfaces
+                echo "  address 192.168.0.1/24" >> /etc/network/interfaces
+                echo "  gateway 192.168.0.1" >> /etc/network/interfaces
+                echo "  dns-nameservers 192.168.0.10" >> /etc/network/interfaces
+                echo "  dns-search host.intern" >> /etc/network/interfaces
     echo
     echo "========================================================="
     read -p "press enter to continue ..."
